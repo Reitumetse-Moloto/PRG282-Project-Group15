@@ -34,7 +34,7 @@ namespace PRG282_Project
         {
             using(SqlConnection connection = new SqlConnection())
             {
-                SqlCommand command = new SqlCommand("spAddNewModule", connection);
+                SqlCommand command = new SqlCommand("spAddModule", connection);
                 command.Parameters.AddWithValue("@ModuleCode", Code);
                 command.Parameters.AddWithValue("@ModuleName", Name);
                 command.Parameters.AddWithValue("@Description", Description);

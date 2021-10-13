@@ -225,7 +225,7 @@ namespace PRG282_Project
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(428, 472);
+            this.btnNext.Location = new System.Drawing.Point(717, 464);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
             this.btnNext.TabIndex = 0;
