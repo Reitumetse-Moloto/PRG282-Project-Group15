@@ -21,5 +21,12 @@ namespace PRG282_Project
         {
 
         }
+
+        private void btnCreateNew_Click(object sender, EventArgs e)
+        {
+            frmModule FormMod = new frmModule();
+            FormMod.Show();
+            this.Hide();
+        }
     }
 }
